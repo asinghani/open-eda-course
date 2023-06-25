@@ -1,0 +1,49 @@
+
+IMPORTANT: Run these on a modern Linux install such as recent Ubuntu distributions
+or on `linux.andrew.cmu.edu` servers. Older versions such as RHEL7.9 (used on the ece0XX
+cluster) will not work properly.
+
+
+1. To use Icarus Verilog:
+
+# Use SV2V to convert the SystemVerilog to Verilog-2005
+sv2v MatMul.sv MatMul_tb.sv > _mm_tb.v
+
+# Compile with Icarus
+iverilog -s MatMul_tb -o _mm_tb.vvp _mm_tb.v
+
+# Run the simulation
+vvp _mm_tb.vvp
+
+# View the waveforms with GTKWave, this can be done over X-Forwarding
+# or by copying the file to your local machine and running GTKWave locally
+gtkwave _mm_out.vcd
+
+
+
+2. To use Verilator:
+
+# Note the contents of MatMulDemo.cpp
+cat MatMulDemo.cpp
+
+# (optionally) delete the old build directory if needed
+rm -r obj_dir
+
+# Use Verilator to compile the SystemVerilog to C++
+verilator -Wno-lint --trace --cc MatMul.sv --exe MatMulDemo.cpp
+
+# Compile the actual binaries
+make -C obj_dir -f VMatMul.mk VMatMul
+
+# Run the simulation binary
+./obj_dir/VMatMul
+
+
+
+3. To use CocoTB:
+
+# Note the contents of MatMulTester1.mk and MatMulTester1.py
+cat MatMulTester1.mk
+
+# Execute the simulation
+make -f MatMulTester1.mk
