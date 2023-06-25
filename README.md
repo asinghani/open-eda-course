@@ -1,5 +1,5 @@
 
-![](cover.png)
+![](banner.png)
 
 ## Background
 
