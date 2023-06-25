@@ -209,5 +209,4 @@ If you found this content interesting, check out the linked resources above, get
 
 If you have any questions or suggestions, please reach out at: anish [-at-] anishsinghani [-dot-] com
 
-
-
+Copyright 2023 Anish Singhani All Rights Reserved
