@@ -1,3 +1,4 @@
+# 98-154 / 18-224 / 18-624 Intro to Open-Source Chip Design
 
 ![](banner.png)
 
@@ -6,7 +7,7 @@
 - [Background](#background)
 - [The Course](#the-course)
 - [Student Projects](#student-projects)
-- [Course Content](#course-content)
+- [Course Lectures](#course-lectures)
 - [Next Steps](#next-steps)
 - [Contact](#contact)
 
@@ -77,7 +78,7 @@ Students developed a wide variety of projects ranging from games to CPUs to acce
 The tools used to merge and verify the designs with the multiplexer, as well as the resultant GDS files, can be found on GitHub: [Tools/Designs Repo](https://github.com/asinghani/18224-s23-tapeout) / [Integration/GDS Repo](https://github.com/asinghani/18224-tapeout-s23-caravel)
 
 
-## Course Content
+## Course Lectures
 
 _Author's Note: Most of these lectures were given in a highly-interactive fashion (with lots of whiteboarding and live demos) so some of these slides are fairly sparse (with the notable exception of lecture 8). However, we hope that the slides will be useful as an outline and a starting point for further study. Definitely be sure to check out the demos and links associated with the lectures though!_
 
