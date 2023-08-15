@@ -80,10 +80,12 @@ The tools used to merge and verify the designs with the multiplexer, as well as 
 
 ## Course Lectures
 
-_Author's Note: Most of these lectures were given in a highly-interactive fashion (with lots of whiteboarding and live demos) so some of these slides are fairly sparse (with the notable exception of lecture 8). However, we hope that the slides will be useful as an outline and a starting point for further study. Definitely be sure to check out the demos and links associated with the lectures though!_
+_Author's Note: Most of these lectures were given in a highly-interactive fashion (with lots of whiteboarding and live demos) so some of these slides are fairly sparse (with the notable exception of lecture 8). However, we hope that the slides will be useful as an outline and a starting point for further study. Definitely be sure to check out the demos and resources as well!_
 
 
 ### Lecture 1: Background & Overview of Chip Design
+
+**Lecture Slides:** [lec01.pdf](slides/lec01.pdf)
 
 **Summary:**
 - Introduction to the course structure
@@ -100,6 +102,8 @@ _Author's Note: Most of these lectures were given in a highly-interactive fashio
 
 
 ### Lecture 2: Digital Logic Synthesis & Yosys
+
+**Lecture Slides:** [lec02.pdf](slides/lec02.pdf)
 
 **Summary:**
 - Necessity of logic synthesis
@@ -118,6 +122,8 @@ _Author's Note: Most of these lectures were given in a highly-interactive fashio
 
 ### Lecture 3: Intro to ASIC Tapeout
 
+**Lecture Slides:** [lec03.pdf](slides/lec03.pdf)
+
 **Summary:**
 - Why open source chips are important?
 - Security implications of a fully-auditable chip
@@ -135,6 +141,8 @@ _Author's Note: Most of these lectures were given in a highly-interactive fashio
 
 ### Lecture 4: FPGAs & PnR Flows
 
+**Lecture Slides:** [lec04.pdf](slides/lec04.pdf)
+
 **Summary:**
 - FPGA Internals (CLBs/PLBs, Routing)
 - How to design for FPGAs
@@ -151,6 +159,8 @@ Resources:
 
 
 ### Lecture 5: Simulation & Testbenching
+
+**Lecture Slides:** [lec05.pdf](slides/lec05.pdf)
 
 **Summary:**
 - Verilog vs SystemVerilog vs VHDL
@@ -171,6 +181,8 @@ Resources:
 
 ### Lecture 6: ASIC Layout Flows
 
+**Lecture Slides:** [lec06.pdf](slides/lec06.pdf)
+
 **Summary:**
 - SKY130 process node
 - How ASICs are designed from standard cells
@@ -187,6 +199,8 @@ Resources:
 
 
 ### Lecture 7: Altenative HDLs
+
+**Lecture Slides:** [lec07.pdf](slides/lec07.pdf)
 
 **Summary:**
 - Taxonomy of hardware description languages
@@ -208,6 +222,8 @@ Resources:
 
 ### Lecture 8: Hardware Security
 
+**Lecture Slides:** [lec08.pdf](slides/lec08.pdf)
+
 **Summary:**
 - Unique challenges associated with hardware security
 - Why are systems insecure?
@@ -226,6 +242,8 @@ Resources:
 
 ### Lecture 9: Misc Topics and Next Steps (short lecture)
 
+**Lecture Slides:** [lec09.pdf](slides/lec09.pdf)
+
 **Summary:**
 - Mutation Cover for testbench coverage (+ interactive exercise) 
 - FPGA board recommendations for future projects
@@ -239,7 +257,10 @@ Resources:
 - [Open Source Silicon Slack](https://open-source-silicon.dev/)
 - [TinyTapeout Community](https://discord.gg/qZHPrPsmt6)
 
+
 ### Lecture 10: Post-Tapeout Bringup & Research Landscape
+
+**Lecture Slides:** [lec10.pdf](slides/lec10.pdf)
 
 **Summary:**
 - Chip packaging after manufacturing
